@@ -12,9 +12,14 @@
     
 var r = prompt("Unesite poluprečnik osnove valjka:");
 var H = prompt("Unesite visinu valjka:");
+/*
+formula za obračunavanje zapremine valjka je:
+V = r*r * π * H 
+*/
 
-var sum = parseInt(r) * parseInt(r) * parseInt(H) * Math.PI;
-alert("Zapremina valjka je: " + sum);
+
+var V = parseInt(r) * parseInt(r) *Math.PI * parseInt(H);
+alert("Zapremina valjka je: " + V);
 </script>
 
 </body>
