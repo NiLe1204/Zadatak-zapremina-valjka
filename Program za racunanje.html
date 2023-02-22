@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nihad Hodzic"> 
+    <title>Program za obavljanje osnovnih aritmetičkih operacija</title>
+    
+</head>
+<body>
+
+<script type="text/javascript" >
+    
+var a = prompt("Unesite prvi broj:");
+var operacija = prompt ("Odaberite operaciju: +, -, * ili /")
+var b = prompt("Unesite drugi broj:");
+
+
+
+if (operacija == "+") 
+{
+var c = parseInt(a) + parseInt(b) ;
+alert("Rezultat odabrane operacije je: " + c);
+}
+
+
+else if (operacija == "-") {
+var d = parseInt(a) - parseInt(b) ;
+alert("Rezultat odabrane operacije je: " + d);
+   
+}
+
+else if (operacija == "*") {
+var e = parseInt(a) * parseInt(b) ;
+alert("Rezultat odabrane operacije je: " + e);
+   
+}
+else if (operacija == "/") {
+var f = parseInt(a) / parseInt(b) ;
+alert("Rezultat odabrane operacije je: " + f);
+   
+}
+else {
+    alert ("Neka vrijednost je unesena pogrešno, molimo pokušajte ponovo unijeti ispravne brojčane vrijednosti i odaberite ponuđenu operaciju!")
+
+    }
+</script>
+
+
+</body>
+</html>
